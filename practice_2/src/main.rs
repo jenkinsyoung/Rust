@@ -29,7 +29,7 @@ fn max_sum(){
 
     println!("{}", max_sum)
 }
-
+//Задача №2: Максимизация суммы подстроки с модификацией
 fn max_sum_with_multiplication(){
     let mut input = String::new();
     let _ = io::stdin().read_line(&mut input);
@@ -64,6 +64,7 @@ fn max_sum_with_multiplication(){
 }
 
 fn main() {
+    // max_sum();
     max_sum_with_multiplication();
 }
 
